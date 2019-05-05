@@ -14,6 +14,8 @@
 		82FE246D227EB0AC0004D760 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82FE246B227EB0AC0004D760 /* LaunchScreen.storyboard */; };
 		82FE2478227EB0AC0004D760 /* Like_InstaAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FE2477227EB0AC0004D760 /* Like_InstaAppTests.swift */; };
 		82FE2483227EB0AD0004D760 /* Like_InstaAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FE2482227EB0AD0004D760 /* Like_InstaAppUITests.swift */; };
+		82FE2491227EB7B10004D760 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FE2490227EB7B10004D760 /* FilterViewController.swift */; };
+		82FE2493227EBE670004D760 /* SNSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FE2492227EBE670004D760 /* SNSViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		82FE247E227EB0AD0004D760 /* Like-InstaAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Like-InstaAppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		82FE2482227EB0AD0004D760 /* Like_InstaAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Like_InstaAppUITests.swift; sourceTree = "<group>"; };
 		82FE2484227EB0AD0004D760 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82FE2490227EB7B10004D760 /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		82FE2492227EBE670004D760 /* SNSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SNSViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				82FE2469227EB0AC0004D760 /* Assets.xcassets */,
 				82FE246B227EB0AC0004D760 /* LaunchScreen.storyboard */,
 				82FE246E227EB0AC0004D760 /* Info.plist */,
+				82FE2490227EB7B10004D760 /* FilterViewController.swift */,
+				82FE2492227EBE670004D760 /* SNSViewController.swift */,
 			);
 			path = "Like-InstaApp";
 			sourceTree = "<group>";
@@ -256,6 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82FE2491227EB7B10004D760 /* FilterViewController.swift in Sources */,
+				82FE2493227EBE670004D760 /* SNSViewController.swift in Sources */,
 				82FE2465227EB0AB0004D760 /* ViewController.swift in Sources */,
 				82FE2463227EB0AB0004D760 /* AppDelegate.swift in Sources */,
 			);
